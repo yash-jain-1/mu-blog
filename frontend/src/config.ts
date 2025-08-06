@@ -2,7 +2,7 @@
 const config = {
   app: {
     title: 'the_insightful_muon',
-    apiUrl: 'http://localhost:5000/api',
+    apiUrl: 'https://mu-blog.onrender.com:10000/api',
   },
   theme: {
     fontFamily: "'Inter', sans-serif",
