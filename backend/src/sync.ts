@@ -56,8 +56,9 @@ async function syncGitHubToDB() {
             const fileResponse = await axios.get(file.download_url);
             const fileContent = fileResponse.data;
 
-            // Parse front-matter and content
-            const { data: metadata, content: markdownContent } = matter(fileContent);
+            // Parse front-matter and content.
+            // Explicitly convert fileContent to a string to prevent parsing errors.
+            const { data: metadata, content: markdownContent } = matter(String(fileContent));
             
             // Create a slug from the filename (e.g., 'my-first-post.md' -> 'my-first-post')
             const slug = file.name.replace(/\.md$/, '');
