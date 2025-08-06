@@ -20,8 +20,10 @@ const Header = ({ onBack }: { onBack: () => void }) => {
       </div>
       <nav>
         <a
-          href="#"
-          className="hover:text-white transition-colors text-gray-600"
+          href="https://yash-jain-1.github.io/Insightful-Muon/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-4 px-5 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold shadow-lg hover:from-purple-600 hover:to-blue-500 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
         >
           About
         </a>

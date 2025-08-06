@@ -1,5 +1,8 @@
+body, html {
+  font-family: 'GT Walsheim', 'Inter', 'Segoe UI', 'Arial', sans-serif;
+}
+
 body {
-  font-family: 'Inter', sans-serif;
   background-color: #000000;
   color: #FFFFFF;
 }
