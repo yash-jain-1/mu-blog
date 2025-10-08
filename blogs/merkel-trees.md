@@ -22,17 +22,6 @@ Merkle trees are a fundamental algorithm in computer science, especially useful 
 
 A Merkle tree is a binary tree where each leaf node contains a hash of a data block, and each non-leaf node contains the cryptographic hash of its child nodes. This structure allows for efficient and secure verification of the contents of large data structures.
 
-| ![Merkle Tree Example](Pasted image 20250406194156.png) | ![Merkle Tree in Git](Pasted image 20250406194208.png) |
-| ------------------------------------------------------ | ----------------------------------------------------- |
-
-Additional visualizations:
-
-![Merkle Tree Visualization 1](Pasted image 20250406194247.png)  
-![Merkle Tree Visualization 2](Pasted image 20250406194437.png)  
-![Merkle Tree Visualization 3](Pasted image 20250406194515.png)  
-![Merkle Tree Visualization 4](Pasted image 20250406194706.png)  
-
----
 
 ## Why Use Merkle Trees?
 
